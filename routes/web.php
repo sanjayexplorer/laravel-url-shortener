@@ -24,7 +24,7 @@ use App\Http\Controllers\ShortUrlRedirectController;
 
 // Public homepage
 Route::get('/', function () {
-    return view('welcome');
+    return redirect()->route('login');
 });
 
 
